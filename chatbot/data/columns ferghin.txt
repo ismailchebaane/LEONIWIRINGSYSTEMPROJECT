@@ -1,0 +1,7 @@
+immo Number,
+serial number,
+anne plaque signalitique, 
+2x  commersialisation (both columns),
+age,
+aging result,
+Equipment Staus

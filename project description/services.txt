@@ -1,0 +1,5 @@
+DocumentService.java: Handles file upload, retrieval, and deletion in MongoDB GridFS storage.
+
+EquipmentServices.java: Manages equipment-related operations, including adding new equipment with documents, updating equipment details and documents, retrieving equipment, deleting equipment, and adding/removing documents from existing equipment.
+
+UserServices.java: Manages user-related operations, including retrieving users, adding new users with validation, updating user details (username, matricule, work, role), and deleting users. It ensures uniqueness for username and matricule during updates.

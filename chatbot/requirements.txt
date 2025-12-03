@@ -1,0 +1,23 @@
+# Core LangChain dependencies
+langchain
+
+# CSV loader support (uses pandas internally)
+pandas
+
+# Embeddings from Hugging Face
+sentence-transformers
+
+# FAISS for vector storage
+faiss-cpu
+
+# LLM model inference (LLaMA with GGML)
+ctransformers
+
+# REST API with FastAPI
+fastapi
+uvicorn
+
+# Optional: if running locally with CTransformers models
+torch
+
+flask

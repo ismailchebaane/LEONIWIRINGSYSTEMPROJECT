@@ -1,0 +1,13 @@
+1)ApplicationConfig: Configures Spring Security authentication by defining beans for UserDetailsService, AuthenticationProvider, AuthenticationManager, and PasswordEncoder to handle user authentication and password encryption.
+
+2)CorsConfig: Configures CORS settings to allow requests from http://localhost:3000 with support for all HTTP methods, headers, and credentials.
+
+3)jwtAuthenticationFilter: Defines a filter to extract, validate, and authenticate JWT tokens from HTTP requests, setting user roles and authorities in the Spring Security context.
+
+4)JwtService: Handles the creation, validation, and parsing of JWT tokens, including extracting claims, roles, and checking token expiration.
+
+5)MongoConfig: Configures Spring Data MongoDB with MongoTemplate and GridFsTemplate for database operations and file storage via GridFS.
+
+6)SecurityConfig: Configures basic authentication for all requests and requires authentication for all endpoints using Spring Security.
+
+7)SecurityConfiguration: Configures Spring Security to handle JWT authentication, enable CORS, disable CSRF, manage session state as stateless, and define access rules for different endpoints.

@@ -1,0 +1,21 @@
+Equipment Class:
+
+Represents an equipment entity in MongoDB.
+
+Includes fields like name, serialNumber, state, etc.
+
+Uses Lombok for getter, setter, and no-args constructor generation.
+
+Mapped to MongoDB collection Equipment.
+
+User Class:
+
+Implements UserDetails for Spring Security.
+
+Represents a user with fields like fullName, username, role, etc.
+
+Validates necessary fields using annotations.
+
+Implements methods for authentication/authorization (e.g., getAuthorities()).
+
+Mapped to MongoDB collection users.

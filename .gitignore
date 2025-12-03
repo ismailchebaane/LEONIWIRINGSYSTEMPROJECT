@@ -1,0 +1,29 @@
+# Python virtual environment
+.venv/
+venv/
+
+# IDE configs
+.idea/
+.vscode/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+
+# OS files
+.DS_Store
+Thumbs.db
+".env" 

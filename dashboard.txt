@@ -1,0 +1,4 @@
+for each plant --- nb equipment groupment (location)  graphe cutting 
+
+for each plant --- nb equipment groupment (location)  graphe vkf 
+for each plant --- nb equipment groupment (location)  graphe assemblytesting

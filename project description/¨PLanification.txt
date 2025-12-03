@@ -1,0 +1,120 @@
+Month 3-4 Plan (Remaining Work)
+Week 1-2: Backend - Equipment & Document Management
+Task 1: Equipment Management API Development
+
+Develop endpoints for creating, updating, deleting, and retrieving equipment information.
+
+Implement file uploading, deleting, and retrieving documents associated with equipment.
+
+Integrate MongoDB storage for equipment-related data.
+
+Task 2: Document Management and GridFS Integration
+
+Finalize document upload and retrieval process using MongoDB GridFS.
+
+Ensure that documents can be categorized as read-only or read/write, as per user roles.
+
+Implement proper permissions based on roles (Admin, User).
+
+Week 3-4: Backend - User & Authentication Enhancements
+Task 3: User Management API Development
+
+Create CRUD operations for user management (add, edit, delete, retrieve users).
+
+Implement role-based access control (RBAC) using Spring Security (Admin, User roles).
+
+Develop the functionality for managing user authentication (sign in/sign up) with JWT tokens.
+
+Task 4: Enhance Authentication Flow
+
+Complete JWT-based authentication flow for all routes.
+
+Improve password hashing and user session management for increased security.
+
+Week 5-6: Frontend - Admin Interface & Equipment Management
+Task 5: Admin Dashboard Development
+
+Develop and finalize the admin dashboard with features like adding, editing, and deleting equipment and users.
+
+Integrate equipment details and documents on the dashboard for quick access and management.
+
+Ensure role-based access to the admin panel (only admins should have access).
+
+Task 6: User Profile and Management Pages
+
+Develop user profile management features for Admins to edit employee details.
+
+Integrate functionality for employee data modification and profile viewing.
+
+Week 7-8: Frontend - User Interface & Document Management
+Task 7: User Authentication Pages
+
+Develop login, sign-up, and user profile pages for non-admin users.
+
+Ensure role-based access to documents (read-only and read/write).
+
+Develop document viewing pages with clear indication of signed vs. unsigned documents.
+
+Task 8: Document Viewing/Editing Features
+
+Allow users to view documents based on permissions (read-only or read/write).
+
+Implement UI elements for document signing and status indication (e.g., green/red dots for signed documents).
+
+Week 9-10: Backend - Predictive Maintenance Model (AI)
+Task 9: Integrate Predictive Maintenance Model
+
+Implement the initial predictive maintenance model using machine learning.
+
+Model should predict equipment failures based on historical data (e.g., MTTR, MTBF, hours of operation, etc.).
+
+Use Scikit-learn or TensorFlow to train the model on available data.
+
+Task 10: Predictive Maintenance API Integration
+
+Develop an API to call predictive maintenance data (e.g., failure predictions, maintenance recommendations).
+
+Integrate predictive results into the admin dashboard to display equipment status (predicted failures, maintenance schedules).
+
+Week 11-12: Frontend - Predictive Maintenance & Chatbot Integration
+Task 11: Display Predictive Maintenance Results on Dashboard
+
+Develop UI features to show predictive maintenance results on the admin dashboard.
+
+Create visual elements for showing equipment health status (e.g., predicted failures, upcoming maintenance).
+
+Task 12: AI Chatbot Integration
+
+Integrate the AI chatbot into the web application using Rasa or LangChain API.
+
+Ensure the chatbot can handle basic queries related to equipment (e.g., “Which equipment is most repaired?” or “Show me the machines in the cutting zone”).
+
+Train the chatbot to respond with relevant data from the database.
+
+Week 13-14: Backend - Chatbot and Final Enhancements
+Task 13: Chatbot Backend Integration
+
+Set up endpoints to support the chatbot’s backend (queries related to equipment, status, maintenance).
+
+Integrate chatbot with MongoDB for dynamic data fetching based on user queries.
+
+Task 14: Final Bug Fixes and Feature Refinement
+
+Perform integration testing for backend APIs and frontend interfaces.
+
+Resolve any issues related to document uploads, user access, predictive maintenance API, and chatbot functionality.
+
+Week 15-16: Testing, Optimization & Deployment
+Task 15: Comprehensive Testing (Unit, Integration, UI)
+
+Conduct extensive testing of backend endpoints (CRUD, JWT authentication, document management, etc.).
+
+Perform UI testing to ensure user experience (UX) is smooth and all functionalities are working as expected.
+
+Ensure the chatbot responds accurately and dynamically.
+
+Task 16: Deployment and Documentation
+
+Deploy the application to a staging or production environment.
+
+Prepare detailed documentation (both technical and user-facing) for the system, covering installation, usage, and API documentation.

@@ -1,0 +1,15 @@
+AuthController.java: This file defines a Spring Boot controller that handles authentication-related endpoints like signing in and logging in. It uses AuthService to process the requests and return JWT tokens.
+
+AuthenticationRequest.java: A simple POJO (Plain Old Java Object) with Lombok annotations that defines the structure for authentication requests, containing username and matricule as the required fields.
+
+AuthenticationResponse.java: A simple POJO that represents the response from authentication, containing a single field token (JWT token).
+
+AuthService.java: A service class responsible for handling user registration and authentication. It hashes passwords, interacts with the UserRepository, and generates JWT tokens using JwtService.
+
+DocumentsController.java: A controller that provides endpoints for uploading, retrieving, and deleting documents, interacting with the DocumentService to handle file operations.
+
+EquipmentController.java: This file defines a controller for managing equipment-related operations, including adding, updating, retrieving, deleting equipment, and managing associated documents (uploading, removing, updating).
+
+signinRequest.java: A DTO (Data Transfer Object) representing the request body for user registration (signing in), with validation annotations ensuring that required fields such as full name, username, matricule, work, and role are provided.
+
+UserController.java: A controller for managing users, providing CRUD operations like adding, updating, retrieving, and deleting users. The endpoints are restricted to users with the "ADMIN" role using @PreAuthorize.
