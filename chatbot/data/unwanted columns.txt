@@ -1,3 +1,0 @@
-nom d'équipement ,
- id technique ,
-Physical status
