@@ -1,3 +1,0 @@
-The EquipmentRepository interface provides CRUD operations for Equipment objects in MongoDB.
-
-The UserRepository interface provides CRUD operations for User objects and custom methods to find users by username and matricule.
